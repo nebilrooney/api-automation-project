@@ -2,14 +2,14 @@ API Automation Testing Project
 
 Automated API testing project built with Python, Pytest, and Requests.
 
-Tools & Technologies
+Tools & Technologies:
 
 - Python
 - Pytest
 - Requests
 - Git & GitHub
 
-Test Coverage
+Test Coverage:
 
 - GET: Retrieve product data.
 - POST: Create a new product.
@@ -18,7 +18,7 @@ Test Coverage
 - DELETE: Delete a product.
 - Negative Testing: Validate invalid product data.
 
-Negative Testing
+Negative Testing:
 
 - Test product creation with a negative price.
 - Test product creation without a title.
@@ -35,7 +35,7 @@ Run all tests:
 
 python -m pytest -v
 
- Project Structure
+ Project Structure:
  
  - "api-automation-project/"
   - ".gitignore"
