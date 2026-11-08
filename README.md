@@ -1,8 +1,6 @@
 API Automation Testing Project
 
-Project Description
-
-This project contains automated API tests using Python, Pytest, and Requests.
+Automated API testing project built with Python, Pytest, and Requests.
 
 Tools & Technologies
 
@@ -20,6 +18,13 @@ Test Coverage
 - DELETE: Delete a product.
 - Negative Testing: Validate invalid product data.
 
+Negative Testing
+
+- Test product creation with a negative price.
+- Test product creation without a title.
+
+These two tests are marked as expected failures ("XFAIL") because DummyJSON accepts these inputs.
+
 How to Run Tests
 
 Install dependencies:
@@ -30,7 +35,7 @@ Run all tests:
 
 python -m pytest -v
 
-Project Structure
+## Project Structure
 
 api-automation-project/
 ├── .gitignore
@@ -40,4 +45,4 @@ api-automation-project/
 
 API
 
-DummyJSON: https://dummyjson.com/products
+"DummyJSON Products API" (https://dummyjson.com/products)
