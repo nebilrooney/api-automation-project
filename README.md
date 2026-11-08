@@ -35,13 +35,15 @@ Run all tests:
 
 python -m pytest -v
 
-## Project Structure
+ Project Structure
+ 
+ - "api-automation-project/"
+  - ".gitignore"
+  - "README.md"
+  - "test_get_products.py"
+  - "test_products_operations.py"
 
-api-automation-project/
-├── .gitignore
-├── README.md
-├── test_get_products.py
-└── test_products_operations.py
+
 
 API
 
